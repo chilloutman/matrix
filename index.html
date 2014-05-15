@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Matrix</title>
+    <style>
+      body {
+        background-image: url('thematrix.gif');
+      }
+      #container {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: monospace;
+        position: relative;
+        max-width: 512px;
+        margin: 32px auto;
+        padding: 64px;
+      }
+      .background {
+        z-index: -1;
+        background-color: #fff;
+        opacity: 0.95;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="background"></div>
+      <pre id="output"></pre>
+    </div>
+    <script src="matrix.js"></script>
+  </body>
+</html>
